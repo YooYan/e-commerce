@@ -1,0 +1,91 @@
+.cadrepanier {
+    border:2px outset black;
+    height: 400px;
+    width: 400px;
+    margin-left: 75%;
+    margin-top: 2%;
+    /* position: fixed; */
+    background-color: blanchedalmond;
+    
+}
+.livraison {
+    border : 2px outset black;
+     height: 400px;
+    width: 800px; 
+    margin-left: 10%;
+    margin-top: -22%;
+    background-color: blanchedalmond;
+    
+    
+}
+.payer {
+    border : 2px outset black ;
+    height: 400px;
+    width: 800px;
+    margin-top: 3%;
+    margin-left: 10%;
+    background-color: blanchedalmond;
+}
+/* body {
+ background-color: #EBFAFF;
+ background-size: cover;
+ ;
+ 
+} */
+.ville1 {
+    margin-left: 10%;
+}
+.adresse1 {
+    margin-left: 2%;
+}
+.warninga {
+    margin-left: 70%;
+}
+.paypalle {
+    margin-left: 44%;
+    margin-top: 15%;
+}
+@media screen and (max-width : 680px) {
+    .cadrepanier {
+        margin-left: 24%;
+    }
+    .livraison {
+        width: 95%;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+   .payer {
+       width: 95%;
+       margin-left: 3%;
+   }
+   }
+   @media screen and (min-width : 681px) and (max-width: 1280px) {
+  
+    .cadrepanier {
+        margin-left: 35%;
+    }
+    .livraison {
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+   .payer {
+        width: 80%;
+       margin-left: 10%;
+   }
+   }
+   @media screen and (min-width : 1281px) and (max-width : 1920px) {
+    .cadrepanier {
+        margin-left: 70%;
+        
+
+    }
+    .livraison {
+        margin-top: -15%;
+        width: 50%;
+    }
+   .payer {
+       width: 50%;
+   }
+   }
+   
